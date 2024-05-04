@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="form-wrap">
+        <h1 id="title">Assignment form</h1>
+
+       <p id="description">This is an Assignment from free-code-camp to get the certification.</p>
+
+        <form id="survey-form">
+
+            <label for="name" id="name-label" class="bold">Name :- </label>
+            <input type="text" id="name" name="Name" required placeholder="write your name">
+            
+            <label for="email" id="email-label" class="bold">Email :- </label>
+            <input type="email" id="email" name="Email" required placeholder="write your email">
+    
+            <label for="number" id="number-label" class="bold">Age :- </label>
+            <input type="number" id="number" name="Number" min="12" max="70" required placeholder="age">
+    
+            <label for="dropdown" class="dropdown bold">Profession :- </label>
+             <select id="dropdown" name="dropdown">
+               <option value="option1">Select</option>
+               <option value="option2">Student</option>
+               <option value="option3">Self Employed</option>
+             </select>
+    
+             <div class="form-group">
+                <p class="bold">Gender :-</p>
+               <div>
+                <label for="option1"><input type="radio" id="option1" name="gender" value="option1"> Male</label>
+               
+               
+               <label for="option2"><input type="radio" id="option2" name="gender" value="option2"> Female</label>
+               
+               
+               <label for="option3"><input type="radio" id="option3" name="gender" value="option3"> Transgender</label>
+               </div>
+            </div>
+
+             <div class="form-group">
+              <p class="bold">Dream to Travel :-</p>
+              <div>
+               <label for="check1"><input type="checkbox" id="check1" name="checkboxes" value="check1"> United State</label>
+                
+               <label for="check2"><input type="checkbox" id="check2" name="checkboxes" value="check2"> China</label>
+               
+               <label for="check3"><input type="checkbox" id="check3" name="checkboxes" value="check3"> Japan</label>
+              </div>
+             </div>
+    
+    
+            <label for="message" class="message bold">Message :-</label>
+            <textarea name="message" id="message" rows="5" placeholder="write your message"></textarea>
+    
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>

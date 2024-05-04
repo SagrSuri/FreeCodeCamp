@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    color: #000000d2;
+    text-align: center;
+    font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
+    padding: 2rem 0 0.4rem 0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+#description{
+    font-family: Poppins;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #3b3b3bed;
+    font-style: italic;
+    font-weight: 600;
+}
+.form-wrap{
+    max-width: 100%;
+    background: #c0bfbfb7;
+}
+#survey-form{
+    width: 65vw;
+    margin: 0 auto 0 auto;
+    padding: 3rem 2rem 3rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+    background: #05ff8ab1;
+    border-radius: 0.4rem;
+}
+#name-label, #email-label,#number-label,#name,#email,#number,.dropdown, #dropdown{
+    font-family: Poppins;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    width: 100%;
+}
+input,select,textarea{
+    padding: 0.4rem 1rem;
+}
+
+.form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-family: Poppins;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+.form-group div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   align-items: start;
+   font-family: Poppins;
+   font-size: 1rem;
+}
+.message ,#message,#submit{
+    width: 100%;
+    font-family: Poppins;
+   font-size: 1rem;
+   border-radius: 0.3rem;
+}
+#submit:hover{
+    background: #0d7e5558;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.bold{
+    font-weight: bold;
+}
